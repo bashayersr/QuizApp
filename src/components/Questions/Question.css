@@ -1,0 +1,60 @@
+.question{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.oneQuestion{
+    width: 50%;
+    min-height: 350px;
+    background-color: #fff;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+}
+.oneOption{
+    width: 70%;
+    height: 50px;
+    padding: 15px 20px;
+    margin:10px;
+    border-radius: 30px;
+    background-color: rgb(224, 215, 215);
+    cursor: pointer;
+}
+.selected{
+    background-color: rgb( 2,207, 0);
+    color: #fff;
+    border: none;
+}
+.wrong{
+    background-color: rgb( 233,0, 0);
+    color: #fff;
+    border: none;
+}
+.controles button{
+    margin: 10px ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.button1{
+    background-color: rgb(3, 3, 158);
+    color: #fff;
+}
+.button2{
+    background-color: rgb(156, 5, 68);
+    color: #fff;
+}
+
+.eror{
+    background-color:red;
+    color: #fff;
+    padding: 10px;
+}

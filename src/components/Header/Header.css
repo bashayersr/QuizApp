@@ -1,0 +1,19 @@
+.header .title{
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    padding: 20px 30px;
+    width: 300px;
+    margin:20px auto 40px auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow:3px 3px 3px #05002b , -3px -3px 3px #04284d; 
+    font-weight:800;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
